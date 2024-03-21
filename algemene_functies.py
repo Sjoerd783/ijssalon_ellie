@@ -1,16 +1,13 @@
-def mijn_functie_1(a):
-    argumenten = [2, 4, 10, 12]
-    return argumenten[a] ** 2
+def mijn_functie_2(a,b):
+    uitvoer_lijst = []
+    uitvoer_lijst.append(a+b)
+    uitvoer_lijst.append(a-b)
+    uitvoer_lijst.append(a*b)
+    uitvoer_lijst.append(a/b)
+    return uitvoer_lijst
 
 
-teruggeefwaarde = mijn_functie_1(1)
+resultaat = mijn_functie_2(12, 2)
 
-print(teruggeefwaarde)
 
-def mijn_functie_2(a):
-    argument1 = [12, 12, 10, 100]
-    argument2 = [3, 2, 5, 20]
-    return argument1[a] + argument2[a], argument1[a] - argument2[a], argument1[a] * argument2[a], argument1[a] / argument2[a]
-
-teruggeefwaarde = mijn_functie_2(1)
-print(teruggeefwaarde)
+print(resultaat)
