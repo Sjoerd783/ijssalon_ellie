@@ -1,8 +1,9 @@
-def presenteer(totaal):
-    for item, prijs in totaal.items():
+def presenteer(data, totaal):
+    for item, prijs in data.items():
         print(f"{item} : {prijs} euro")
     print("==========================")
     print(f"totaal : {totaal} euro")
+
 
 
 
