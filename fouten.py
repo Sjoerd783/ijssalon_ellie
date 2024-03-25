@@ -1,4 +1,4 @@
-import math
+import 
 
 def discriminant(a,b,c):
     try:

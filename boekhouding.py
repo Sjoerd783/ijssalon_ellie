@@ -1,4 +1,5 @@
-from helper.py
+import helper 
+import presentatie
 
 def inkomsten():
     return {    
@@ -8,9 +9,16 @@ def inkomsten():
         "Waterijsjes totaal": 750
     }
 
-def som():
-    totale_inkomsten = sum(inkomsten().values())
-    return totale_inkomsten
+inkomsten = inkomsten()
+
+
+totaal_inkomsten = helper.som(inkomsten)
+
+print(totaal_inkomsten)
+
+
+    
+
 
 
 
